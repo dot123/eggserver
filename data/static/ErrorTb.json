@@ -1,0 +1,581 @@
+[
+  {
+    "id": 400,
+    "code": "NetWorkError",
+    "show": 1,
+    "content": "Network Error.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": -3,
+    "code": "ServerBusy",
+    "show": 1,
+    "content": "Server Busy.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": -2,
+    "code": "TooManyRequests",
+    "show": 1,
+    "content": "Request too frequent.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": -1,
+    "code": "UnknownError",
+    "show": 1,
+    "content": "Unknown Error.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 0,
+    "align": 1
+  },
+  {
+    "id": 0,
+    "code": "OK",
+    "show": 0,
+    "content": "Success.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 1,
+    "code": "ParametersInvalid",
+    "show": 1,
+    "content": "Invalid Parameters.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 2,
+    "code": "RDBError",
+    "show": 1,
+    "content": "Database Error.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 3,
+    "code": "DatabaseError",
+    "show": 1,
+    "content": "Database Error.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 4,
+    "code": "JsonMarshalError",
+    "show": 1,
+    "content": "Database Error.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 5,
+    "code": "JsonUnmarshalError",
+    "show": 1,
+    "content": "Database Error.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 6,
+    "code": "TokenInvalid",
+    "show": 1,
+    "content": "Token is Invalid.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 0,
+    "align": 1
+  },
+  {
+    "id": 7,
+    "code": "TokenGenerateFail",
+    "show": 1,
+    "content": "Token Generation Failed.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 0,
+    "align": 1
+  },
+  {
+    "id": 8,
+    "code": "Unauthorized",
+    "show": 1,
+    "content": "Unauthenticated.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 0,
+    "align": 1
+  },
+  {
+    "id": 9,
+    "code": "LoggedInOnAnotherDevice",
+    "show": 1,
+    "content": "You are logged in on another device.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 0,
+    "align": 1
+  },
+  {
+    "id": 10,
+    "code": "LoginExpired",
+    "show": 1,
+    "content": "Login has expired. Please log in again.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 0,
+    "align": 1
+  },
+  {
+    "id": 11,
+    "code": "ItemNotFound",
+    "show": 1,
+    "content": "Item Cannot Be Found.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 12,
+    "code": "ItemNotEnough",
+    "show": 1,
+    "content": "Not Enough Items.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 13,
+    "code": "DiamondNotEnough",
+    "show": 1,
+    "content": "Not Enough Diamonds.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 14,
+    "code": "MinionsNotFound",
+    "show": 1,
+    "content": "Minions Cannot Be Found.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 15,
+    "code": "MinionsNotEnough",
+    "show": 1,
+    "content": "Not Enough Minionss.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 16,
+    "code": "ShopNotFound",
+    "show": 1,
+    "content": "Product Not Found.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 17,
+    "code": "PurchaseRestrictions",
+    "show": 0,
+    "content": "Purchase Restrictions.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 18,
+    "code": "RewardClaimed",
+    "show": 1,
+    "content": "Reward Already Claimed.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 19,
+    "code": "PermissionDenied",
+    "show": 1,
+    "content": "Permission Denied.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 20,
+    "code": "BattleAlreadyStarted",
+    "show": 1,
+    "content": "The Battle Has Already Begun.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 21,
+    "code": "BattleMemberNotEnough",
+    "show": 1,
+    "content": "Not Enough Players, Room Disbanded.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 22,
+    "code": "BattleAlreadyDismiss",
+    "show": 1,
+    "content": "The Room Has Been Disbanded.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 23,
+    "code": "BattleDataError",
+    "show": 1,
+    "content": "Battle Data Error.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 24,
+    "code": "BattleBetFailItemNotEnough",
+    "show": 1,
+    "content": "Bet Failed: Not Enough Items.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 25,
+    "code": "BattleYouNotInRound",
+    "show": 1,
+    "content": "You Are Not in This Round",
+    "pos": 2,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 26,
+    "code": "NotQualified",
+    "show": 1,
+    "content": "Not Qualified to Enter.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 27,
+    "code": "AlreadyJoinOtherBattle",
+    "show": 1,
+    "content": "Already Signed Up for Another Battlefield.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 28,
+    "code": "BattleRegistrationFull",
+    "show": 1,
+    "content": "Registration Capacity Reached.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 29,
+    "code": "RegisteredUsers",
+    "show": 1,
+    "content": "Recently registered users in the last hour: {1}",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 1000,
+    "code": "BattleVictory",
+    "show": 1,
+    "content": "You won the recent {1} and received a reward of [color=#FF0000]{2}[/color] <img src='ui://item/gofen'/>.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 0,
+    "align": 1
+  },
+  {
+    "id": 1001,
+    "code": "BattleFailure",
+    "show": 1,
+    "content": "You unfortunately lost in the recent {1}.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 0,
+    "align": 1
+  },
+  {
+    "id": 1002,
+    "code": "ShopRefresh",
+    "show": 1,
+    "content": "Spend {1} <img src='ui://item/zs02'/> to refresh?",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 1003,
+    "code": "ShopBuy",
+    "show": 1,
+    "content": "Spend {1} <img src='ui://item/zs02'/> to purchase?{2}",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 0
+  },
+  {
+    "id": 1004,
+    "code": "ShopTonBuy",
+    "show": 1,
+    "content": "Spend {1} <img src='ui://item/Ton'/> to purchase?{2}",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 0
+  },
+  {
+    "id": 1005,
+    "code": "FunctionNotOpen",
+    "show": 1,
+    "content": "Coming soon!",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 1006,
+    "code": "EggRecoveryCard",
+    "show": 1,
+    "content": "Use 1 empty egg recovery card to reset? (Remaining empty egg recovery cards: [color=#FF0000] {1} [/color]).",
+    "pos": 5,
+    "button": [
+      "Cancel",
+      "Sure"
+    ],
+    "clickVoidClose": 0,
+    "align": 1
+  },
+  {
+    "id": 1007,
+    "code": "EggRecoveryCardNotEnough",
+    "show": 1,
+    "content": "Oh no! It's an empty egg. Would you like to use {1}  <img src='ui://item/zs'/> to restore this egg?",
+    "pos": 5,
+    "button": [
+      "Cancel",
+      "Buy"
+    ],
+    "clickVoidClose": 0,
+    "align": 1
+  },
+  {
+    "id": 1008,
+    "code": "BuyEggCollectionCard",
+    "show": 1,
+    "content": "Spend {1} <img src='ui://item/zs02'/> to purchase a {2} day Automatic Egg Collection Card?",
+    "pos": 5,
+    "button": [
+      "Cancel",
+      "Buy"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 1009,
+    "code": "EggAutoCollection",
+    "show": 1,
+    "content": "Wow! Collected {1} eggs using the Automatic Egg Collection Card!",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 1010,
+    "code": "GetEggAutoCollection",
+    "show": 1,
+    "content": "Successfully purchased Auto Egg Collection Card for {1} days.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 1011,
+    "code": "GetDeluxePass",
+    "show": 1,
+    "content": "Successfully purchased the Deluxe Pass.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 1012,
+    "code": "GetCheckInCard",
+    "show": 1,
+    "content": "Successfully purchased the Check-In Card.",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  },
+  {
+    "id": 1013,
+    "code": "ResigningTips",
+    "show": 1,
+    "content": "Spend {1} <img src='ui://item/zs02'/> to Re-signing ? You have {2} Re-signing （Maximum of 7 Re-signing）",
+    "pos": 4,
+    "button": [
+      "Confirm"
+    ],
+    "clickVoidClose": 1,
+    "align": 1
+  }
+]

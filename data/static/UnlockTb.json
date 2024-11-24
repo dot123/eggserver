@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "condition": [
+      108
+    ],
+    "nodePath": "btnShop"
+  },
+  {
+    "id": 2,
+    "condition": [
+      108
+    ],
+    "nodePath": "btnTask"
+  },
+  {
+    "id": 3,
+    "condition": [
+      0
+    ],
+    "nodePath": "btnEgg"
+  },
+  {
+    "id": 4,
+    "condition": [
+      108
+    ],
+    "nodePath": "btnEggOpen"
+  },
+  {
+    "id": 5,
+    "condition": [
+      208
+    ],
+    "nodePath": "btnBattle"
+  }
+]

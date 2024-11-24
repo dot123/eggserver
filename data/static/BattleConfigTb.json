@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "battleName": "战场A",
+    "desc": "gold分不低于0",
+    "need": [
+      {
+        "type": 2,
+        "id": 2001002,
+        "num": 0
+      }
+    ],
+    "matchTime": 30,
+    "playerNum": 100,
+    "roundTimes": [
+      25,
+      25,
+      20,
+      20,
+      20,
+      15,
+      15
+    ],
+    "roundInterval": 5,
+    "gridNum": 8,
+    "totalBonus": 8000,
+    "totalRound": 7,
+    "reward": [
+      {
+        "type": 2,
+        "id": 2001002,
+        "num": 1
+      }
+    ],
+    "bg": "bg_zcrk1",
+    "addRobot": 1,
+    "canExit": 1,
+    "isOpen": 1,
+    "isGuide": 0
+  },
+  {
+    "id": 2,
+    "battleName": "战场B",
+    "desc": "暂未开放，敬请期待。",
+    "need": [
+      {
+        "type": 2,
+        "id": 2001002,
+        "num": 100
+      }
+    ],
+    "matchTime": 300,
+    "playerNum": 200,
+    "roundTimes": [
+      25,
+      25,
+      20,
+      20,
+      20,
+      15,
+      15
+    ],
+    "roundInterval": 5,
+    "gridNum": 8,
+    "totalBonus": 10000,
+    "totalRound": 7,
+    "reward": [
+      {
+        "type": 2,
+        "id": 2001002,
+        "num": 1
+      }
+    ],
+    "bg": "bg_zcrk2",
+    "addRobot": 0,
+    "canExit": 1,
+    "isOpen": 0,
+    "isGuide": 0
+  },
+  {
+    "id": 999,
+    "battleName": "战场A",
+    "desc": "gold分不低于0",
+    "need": [
+      {
+        "type": 2,
+        "id": 2001002,
+        "num": 0
+      }
+    ],
+    "matchTime": 1,
+    "playerNum": 100,
+    "roundTimes": [
+      10,
+      10,
+      10,
+      20
+    ],
+    "roundInterval": 5,
+    "gridNum": 8,
+    "totalBonus": 8000,
+    "totalRound": 4,
+    "reward": [
+      {
+        "type": 2,
+        "id": 2001002,
+        "num": 1
+      }
+    ],
+    "bg": "bg_zcrk1",
+    "addRobot": 1,
+    "canExit": 0,
+    "isOpen": 1,
+    "isGuide": 1
+  }
+]

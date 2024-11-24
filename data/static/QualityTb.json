@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Ordinary",
+    "color": "#505f72",
+    "icon": "N"
+  },
+  {
+    "id": 2,
+    "name": "Rare",
+    "color": "#625780",
+    "icon": "R"
+  },
+  {
+    "id": 3,
+    "name": "Epic",
+    "color": "#746b3a",
+    "icon": "SR"
+  },
+  {
+    "id": 4,
+    "name": "Legendary",
+    "color": "#a46c31",
+    "icon": "SSR"
+  },
+  {
+    "id": 5,
+    "name": "Mythic",
+    "color": "#a33838",
+    "icon": "SP"
+  }
+]

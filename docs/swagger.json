@@ -1,0 +1,283 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a game management background. you can use the api key `ApiKeyAuth` to test the authorization filters.",
+        "title": "gin-gorm-admin API",
+        "termsOfService": "https://github.com",
+        "contact": {
+            "name": "conjurer",
+            "url": "https:/github.com/dot123",
+            "email": "conjurer888888@gmail.com"
+        },
+        "license": {
+            "name": "Apache 2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version": "1.0"
+    },
+    "host": "127.0.0.1:8080",
+    "basePath": "/api/v1",
+    "paths": {
+        "/autoaddvit": {
+            "post": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "用户模块"
+                ],
+                "summary": "自动加体力",
+                "responses": {
+                    "200": {
+                        "description": "失败结果",
+                        "schema": {
+                            "$ref": "#/definitions/ginx.ResponseFail"
+                        }
+                    }
+                }
+            }
+        },
+        "/daily": {
+            "post": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "用户模块"
+                ],
+                "summary": "每日操作",
+                "responses": {
+                    "200": {
+                        "description": "失败结果",
+                        "schema": {
+                            "$ref": "#/definitions/ginx.ResponseFail"
+                        }
+                    }
+                }
+            }
+        },
+        "/enter": {
+            "post": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "用户模块"
+                ],
+                "summary": "处理用户进入游戏请求",
+                "responses": {
+                    "200": {
+                        "description": "失败结果",
+                        "schema": {
+                            "$ref": "#/definitions/ginx.ResponseFail"
+                        }
+                    }
+                }
+            }
+        },
+        "/gm": {
+            "post": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "用户模块"
+                ],
+                "summary": "GM",
+                "parameters": [
+                    {
+                        "description": "请求参数",
+                        "name": "data",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/schema.GMReq"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "失败结果",
+                        "schema": {
+                            "$ref": "#/definitions/ginx.ResponseFail"
+                        }
+                    }
+                }
+            }
+        },
+        "/login": {
+            "post": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "用户模块"
+                ],
+                "summary": "登录",
+                "parameters": [
+                    {
+                        "description": "请求参数",
+                        "name": "data",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/schema.LoginReq"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "失败结果",
+                        "schema": {
+                            "$ref": "#/definitions/ginx.ResponseFail"
+                        }
+                    }
+                }
+            }
+        },
+        "/syncdata": {
+            "post": {
+                "security": [
+                    {
+                        "ApiKeyAuth": []
+                    }
+                ],
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "用户模块"
+                ],
+                "summary": "同步数据",
+                "responses": {
+                    "200": {
+                        "description": "失败结果",
+                        "schema": {
+                            "$ref": "#/definitions/ginx.ResponseFail"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "ginx.ResponseData": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "description": "状态码",
+                    "type": "integer"
+                },
+                "data": {
+                    "description": "数据内容"
+                }
+            }
+        },
+        "ginx.ResponseFail": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "description": "状态码",
+                    "type": "integer"
+                },
+                "msg": {
+                    "description": "错误信息",
+                    "type": "string"
+                }
+            }
+        },
+        "schema.GMReq": {
+            "type": "object",
+            "required": [
+                "cmd"
+            ],
+            "properties": {
+                "cmd": {
+                    "type": "string"
+                }
+            }
+        },
+        "schema.LoginReq": {
+            "type": "object",
+            "required": [
+                "userUid"
+            ],
+            "properties": {
+                "firstName": {
+                    "type": "string"
+                },
+                "languageCode": {
+                    "type": "string"
+                },
+                "lastName": {
+                    "type": "string"
+                },
+                "os": {
+                    "type": "string"
+                },
+                "photoUrl": {
+                    "type": "string"
+                },
+                "startParam": {
+                    "type": "string"
+                },
+                "userUid": {
+                    "type": "string"
+                },
+                "username": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "ApiKeyAuth": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    }
+}

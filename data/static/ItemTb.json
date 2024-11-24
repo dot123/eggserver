@@ -1,0 +1,162 @@
+[
+  {
+    "id": 2001001,
+    "name": "体力",
+    "quality": 1,
+    "type": 1,
+    "icon": "tili",
+    "cmd": "",
+    "param": "",
+    "useType": 0
+  },
+  {
+    "id": 2001002,
+    "name": "羽毛",
+    "quality": 1,
+    "type": 1,
+    "icon": "gofen",
+    "cmd": "",
+    "param": "",
+    "useType": 0
+  },
+  {
+    "id": 2001003,
+    "name": "挽回卡",
+    "quality": 1,
+    "type": 1,
+    "icon": "wanhuika",
+    "cmd": "returnEgg",
+    "param": "",
+    "useType": 0
+  },
+  {
+    "id": 2001004,
+    "name": "钻石",
+    "quality": 1,
+    "type": 1,
+    "icon": "zs",
+    "cmd": "",
+    "param": "",
+    "useType": 0
+  },
+  {
+    "id": 2002001,
+    "name": "高级宝箱",
+    "quality": 1,
+    "type": 2,
+    "icon": "box1",
+    "cmd": "openBox",
+    "param": "6",
+    "useType": 1
+  },
+  {
+    "id": 2002002,
+    "name": "稀有宝箱",
+    "quality": 2,
+    "type": 2,
+    "icon": "box2",
+    "cmd": "openBox",
+    "param": "7",
+    "useType": 1
+  },
+  {
+    "id": 2002003,
+    "name": "史诗宝箱",
+    "quality": 3,
+    "type": 2,
+    "icon": "box3",
+    "cmd": "openBox",
+    "param": "8",
+    "useType": 1
+  },
+  {
+    "id": 2002004,
+    "name": "传说宝箱",
+    "quality": 4,
+    "type": 2,
+    "icon": "box4",
+    "cmd": "openBox",
+    "param": "9",
+    "useType": 1
+  },
+  {
+    "id": 2002005,
+    "name": "神话宝箱",
+    "quality": 5,
+    "type": 2,
+    "icon": "box5",
+    "cmd": "openBox",
+    "param": "10",
+    "useType": 1
+  },
+  {
+    "id": 2003001,
+    "name": "美元",
+    "quality": 1,
+    "type": 2,
+    "icon": "dollar",
+    "cmd": "",
+    "param": "",
+    "useType": 0
+  },
+  {
+    "id": 2001005,
+    "name": "自动收蛋卡*1",
+    "quality": 1,
+    "type": 1,
+    "icon": "",
+    "cmd": "autoEggCollect",
+    "param": "86400",
+    "useType": 1
+  },
+  {
+    "id": 2001006,
+    "name": "自动收蛋卡*7",
+    "quality": 1,
+    "type": 1,
+    "icon": "",
+    "cmd": "autoEggCollect",
+    "param": "604800",
+    "useType": 1
+  },
+  {
+    "id": 2001007,
+    "name": "自动收蛋卡*30",
+    "quality": 1,
+    "type": 1,
+    "icon": "",
+    "cmd": "autoEggCollect",
+    "param": "2592000",
+    "useType": 1
+  },
+  {
+    "id": 2001008,
+    "name": "签到卡",
+    "quality": 1,
+    "type": 1,
+    "icon": "",
+    "cmd": "signCard",
+    "param": "1900800",
+    "useType": 1
+  },
+  {
+    "id": 2001009,
+    "name": "豪华版版通行证1",
+    "quality": 1,
+    "type": 1,
+    "icon": "",
+    "cmd": "passPortDeluxeReward",
+    "param": "",
+    "useType": 1
+  },
+  {
+    "id": 2001010,
+    "name": "豪华版版通行证2",
+    "quality": 1,
+    "type": 1,
+    "icon": "",
+    "cmd": "passPortDeluxeReward",
+    "param": "",
+    "useType": 1
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "lay_egg_time": 3600,
+    "vit_min_max": [
+      0,
+      99999
+    ],
+    "vit_max_auto": 1000,
+    "init_vit": 1000,
+    "vit_add_auto": 86,
+    "gold_minmax": [
+      0,
+      99999
+    ],
+    "init_gold": 0,
+    "init_diamond": 0,
+    "click_lay_egg": 100,
+    "click_take_off_vit": 1,
+    "share_egg_score": 20,
+    "share_egg_reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "invited_reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "share_friends_url": "https://t.me/eggroyale_bot/app",
+    "share_friends_text": "Play with me, participate in the battlefield, get airdrops, and try your luck!",
+    "shop_refresh": [
+      {
+        "type": 2,
+        "id": 2001004,
+        "num": 20
+      },
+      {
+        "type": 2,
+        "id": 2001004,
+        "num": 20
+      },
+      {
+        "type": 2,
+        "id": 2001004,
+        "num": 20
+      }
+    ],
+    "share_pet_score": 500,
+    "share_pet_reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 200
+    },
+    "buyShopRetrieveCard": [
+      2,
+      1620002
+    ],
+    "leaderboard_expiration": 300,
+    "SignCardRewardTimes": 2
+  }
+]

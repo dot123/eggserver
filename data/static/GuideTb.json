@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "cmd": "inStage",
+    "param": [
+      "mainCity/UIMain"
+    ],
+    "guideList": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108
+    ]
+  },
+  {
+    "id": 2,
+    "cmd": "inStage",
+    "param": [
+      "smashEgg/UISmashEgg"
+    ],
+    "guideList": [
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208
+    ]
+  },
+  {
+    "id": 3,
+    "cmd": "inStage",
+    "param": [
+      "battleEntry/UIBattleEntry"
+    ],
+    "guideList": [
+      301,
+      302,
+      303,
+      304,
+      305
+    ]
+  },
+  {
+    "id": 4,
+    "cmd": "inStage",
+    "param": [
+      "battleMain/UIBattleMain"
+    ],
+    "guideList": [
+      306,
+      307,
+      308,
+      309,
+      310,
+      311,
+      312,
+      313
+    ]
+  }
+]

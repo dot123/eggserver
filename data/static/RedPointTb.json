@@ -1,0 +1,41 @@
+[
+  {
+    "id": "btnEgg"
+  },
+  {
+    "id": "layEgg"
+  },
+  {
+    "id": "btnBattle"
+  },
+  {
+    "id": "btnEggOpen"
+  },
+  {
+    "id": "newEgg"
+  },
+  {
+    "id": "newPet"
+  },
+  {
+    "id": "btnShop"
+  },
+  {
+    "id": "shopShare"
+  },
+  {
+    "id": "btnTask"
+  },
+  {
+    "id": "dailyTask"
+  },
+  {
+    "id": "mainTask"
+  },
+  {
+    "id": "mainTaskRewared"
+  },
+  {
+    "id": "dailyTaskRewared"
+  }
+]

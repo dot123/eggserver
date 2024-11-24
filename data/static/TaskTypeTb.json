@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "taskName": "关注TG账号",
+    "desc": "关注指定的账号",
+    "gotoType": 3,
+    "goto": "https://t.me/eggroyale"
+  },
+  {
+    "id": 2,
+    "taskName": "邀请",
+    "desc": "邀请指定数量的人",
+    "gotoType": 2,
+    "goto": "https://t.me/eggroyale_bot/app"
+  },
+  {
+    "id": 3,
+    "taskName": "收集蛋",
+    "desc": "收集指定数量的蛋",
+    "gotoType": 0,
+    "goto": "btnEgg"
+  },
+  {
+    "id": 4,
+    "taskName": "收集宠物",
+    "desc": "收集指定数量的宠物",
+    "gotoType": 0,
+    "goto": "btnEggOpen"
+  },
+  {
+    "id": 5,
+    "taskName": "关注X账号",
+    "desc": "关注指定的账号",
+    "gotoType": 1,
+    "goto": "https://x.com/EggRoyaleBot"
+  },
+  {
+    "id": 6,
+    "taskName": "前往指定官网",
+    "desc": "前往SND官网",
+    "gotoType": 1,
+    "goto": "https://eggroyale.io"
+  },
+  {
+    "id": 7,
+    "taskName": "前往指定官网",
+    "desc": "前往DC网址",
+    "gotoType": 1,
+    "goto": "https://discord.gg/swnd"
+  },
+  {
+    "id": 8,
+    "taskName": "分享",
+    "desc": "分享指定数量的好友",
+    "gotoType": 4,
+    "goto": "https://t.me/eggroyale_bot/app"
+  },
+  {
+    "id": 9,
+    "taskName": "钱包",
+    "desc": "前往绑定钱包",
+    "gotoType": 5,
+    "goto": ""
+  }
+]

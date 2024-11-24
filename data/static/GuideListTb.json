@@ -1,0 +1,657 @@
+[
+  {
+    "id": 101,
+    "desc": "看到中间这个窟窿了没？对，狠狠地戳下去！有什么好处？能赚到钱算不算好处？",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UIMain\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [
+      90,
+      0
+    ],
+    "maskOffset": [
+      -150,
+      -150
+    ],
+    "maskSize": [
+      300,
+      400
+    ],
+    "param": "UIMain/chicken/touch"
+  },
+  {
+    "id": 102,
+    "desc": "",
+    "isSave": 1,
+    "condition": [
+      "checkClickCount"
+    ],
+    "action": [
+      "delay:[2000]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [],
+    "maskSize": [],
+    "param": ""
+  },
+  {
+    "id": 103,
+    "desc": "你可以在这里查看蛋的数量，并确保它尽量别变成0！",
+    "isSave": 0,
+    "condition": [
+      "inStage:[\"UIMain\"]"
+    ],
+    "action": [
+      "showHand:[1]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      -180,
+      -90
+    ],
+    "maskSize": [
+      180,
+      350
+    ],
+    "param": "UIMain/eggNum"
+  },
+  {
+    "id": 104,
+    "desc": "耐心等待倒计时结束，朋友，你会听到啵——的一声。",
+    "isSave": 0,
+    "condition": [
+      "inStage:[\"UIMain\"]"
+    ],
+    "action": [
+      "showHand:[1]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      -170,
+      -25
+    ],
+    "maskSize": [
+      50,
+      370
+    ],
+    "param": "UIMain/layEggTimeComp"
+  },
+  {
+    "id": 105,
+    "desc": "点击一定次数后会获得蛋，蛋越多越好！",
+    "isSave": 0,
+    "condition": [
+      "inStage:[\"UIMain\"]"
+    ],
+    "action": [
+      "showHand:[1]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      65,
+      -35
+    ],
+    "maskSize": [
+      70,
+      220
+    ],
+    "param": "UIMain/clickCount"
+  },
+  {
+    "id": 106,
+    "desc": "好了，现在，听我数321，猛戳它的屁屁！",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UIMain\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [
+      90,
+      0
+    ],
+    "maskOffset": [
+      -150,
+      -150
+    ],
+    "maskSize": [
+      300,
+      400
+    ],
+    "param": "UIMain/chicken/touch"
+  },
+  {
+    "id": 107,
+    "desc": "",
+    "isSave": 1,
+    "condition": [
+      "checkClickCount"
+    ],
+    "action": [
+      "delay:[2000]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [],
+    "maskSize": [],
+    "param": ""
+  },
+  {
+    "id": 108,
+    "desc": "计数器的数字上升了，这很好，数字越高说明你暴富的几率越高！",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UIMain\"]"
+    ],
+    "action": [
+      "showHand:[1]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      -180,
+      -90
+    ],
+    "maskSize": [
+      180,
+      350
+    ],
+    "param": "UIMain/eggNum"
+  },
+  {
+    "id": 201,
+    "desc": "蛋蛋存放在这里，别搞丢了。",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UISmashEgg\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [
+      30,
+      30
+    ],
+    "maskOffset": [
+      -80,
+      -85
+    ],
+    "maskSize": [
+      180,
+      160
+    ],
+    "param": "UISmashEgg/eggList/0"
+  },
+  {
+    "id": 202,
+    "desc": "现在，把它砸开，获得你的第一只宠物吧！",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UISmashEgg\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [
+      100,
+      -50
+    ],
+    "maskOffset": [
+      -200,
+      -270
+    ],
+    "maskSize": [
+      450,
+      400
+    ],
+    "param": "UISmashEgg/eggOpen/egg"
+  },
+  {
+    "id": 203,
+    "desc": "",
+    "isSave": 0,
+    "condition": [],
+    "action": [
+      "delay:[1000]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [],
+    "maskSize": [],
+    "param": ""
+  },
+  {
+    "id": 204,
+    "desc": "这里，是你的宠物之家，所有抽出的宠物奖杯存放于此。",
+    "isSave": 0,
+    "condition": [
+      "inStage:[\"UISmashEgg\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [
+      0,
+      100
+    ],
+    "fingerOffset": [
+      0,
+      0
+    ],
+    "maskOffset": [
+      -80,
+      -75
+    ],
+    "maskSize": [
+      150,
+      160
+    ],
+    "param": "UISmashEgg/petList/0"
+  },
+  {
+    "id": 205,
+    "desc": "好了，继续砸蛋，获得更多宠物吧",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UISmashEgg\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [
+      30,
+      30
+    ],
+    "maskOffset": [
+      -80,
+      -85
+    ],
+    "maskSize": [
+      180,
+      160
+    ],
+    "param": "UISmashEgg/eggList/0"
+  },
+  {
+    "id": 206,
+    "desc": "再砸一个，再砸一个！",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UISmashEgg\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [
+      100,
+      -50
+    ],
+    "maskOffset": [
+      -200,
+      -270
+    ],
+    "maskSize": [
+      450,
+      400
+    ],
+    "param": "UISmashEgg/eggOpen/egg"
+  },
+  {
+    "id": 207,
+    "desc": "",
+    "isSave": 0,
+    "condition": [],
+    "action": [
+      "delay:[1000]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [],
+    "maskSize": [],
+    "param": ""
+  },
+  {
+    "id": 208,
+    "desc": "哇，金色……咳咳，差点串台了，你又获得了一只宠物，把它存起来。",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UISmashEgg\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [
+      0,
+      100
+    ],
+    "fingerOffset": [
+      0,
+      0
+    ],
+    "maskOffset": [
+      -80,
+      -75
+    ],
+    "maskSize": [
+      150,
+      160
+    ],
+    "param": "UISmashEgg/petList/0"
+  },
+  {
+    "id": 301,
+    "desc": "你可以在这里查看战场的规则。",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UIBattleEntry\"]"
+    ],
+    "action": [
+      "showHand:[1]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      230,
+      -220
+    ],
+    "maskSize": [
+      70,
+      70
+    ],
+    "param": "UIBattleEntry/battleList/0"
+  },
+  {
+    "id": 302,
+    "desc": "这里，是战场的参加说明。",
+    "isSave": 0,
+    "condition": [
+      "inStage:[\"UIBattleEntry\"]"
+    ],
+    "action": [
+      "showHand:[1]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      -300,
+      -80
+    ],
+    "maskSize": [
+      160,
+      600
+    ],
+    "param": "UIBattleEntry/battleList/0/desc"
+  },
+  {
+    "id": 303,
+    "desc": "现在，点击匹配按钮，与和你旗鼓相当的对手战斗吧！",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UIBattleEntry\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      -180,
+      -40
+    ],
+    "maskSize": [
+      80,
+      360
+    ],
+    "param": "UIBattleEntry/battleList/0/btnEnter"
+  },
+  {
+    "id": 304,
+    "desc": "想要进行战斗，你必须选择一只宠物替你参战。",
+    "isSave": 0,
+    "condition": [
+      "inStage:[\"UIBattleSelectPet\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [
+      20,
+      0
+    ],
+    "maskOffset": [
+      -80,
+      -80
+    ],
+    "maskSize": [
+      160,
+      160
+    ],
+    "param": "UIBattleSelectPet/list/0"
+  },
+  {
+    "id": 305,
+    "desc": "现在，点击确认。",
+    "isSave": 0,
+    "condition": [
+      "inStage:[\"UIBattleSelectPet\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [
+      0,
+      100
+    ],
+    "fingerOffset": [
+      0,
+      0
+    ],
+    "maskOffset": [
+      -170,
+      -50
+    ],
+    "maskSize": [
+      100,
+      340
+    ],
+    "param": "UIBattleSelectPet/btnConfirm"
+  },
+  {
+    "id": 306,
+    "desc": "这里是战场总羽毛，它会在回合开始时分发到所有房间。",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UIBattleMain\"]"
+    ],
+    "action": [
+      "showHand:[1]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      -250,
+      -50
+    ],
+    "maskSize": [
+      100,
+      400
+    ],
+    "param": "UIBattleMain/totalBonus"
+  },
+  {
+    "id": 307,
+    "desc": "这是每个房间的底池奖励，随着游戏的深入，房间会越来越少，而活下来的人，羽毛会越来越丰厚！",
+    "isSave": 0,
+    "condition": [
+      "inStage:[\"UIBattleMain\"]"
+    ],
+    "action": [
+      "showHand:[1]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      -50,
+      -50
+    ],
+    "maskSize": [
+      80,
+      120
+    ],
+    "param": "UIBattleMain/gridComp/img1/score"
+  },
+  {
+    "id": 308,
+    "desc": "恭喜恭喜，你胜利了咯咯哒！现在，你获得的奖金数目也将提升。",
+    "isSave": 0,
+    "condition": [
+      "checkBattleRoundEnd",
+      "inStage:[\"UIBattleMain\"]"
+    ],
+    "action": [
+      "showHand:[1]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      -120,
+      -50
+    ],
+    "maskSize": [
+      100,
+      350
+    ],
+    "param": "UIBattleMain/playerBonus"
+  },
+  {
+    "id": 309,
+    "desc": "哈哈，运气不错啊！？继续继续，乘胜追击！",
+    "isSave": 0,
+    "condition": [
+      "checkBattleRoundEnd",
+      "inStage:[\"UIBattleMain\"]"
+    ],
+    "action": [
+      "showHand:[0]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [],
+    "maskSize": [],
+    "param": ""
+  },
+  {
+    "id": 310,
+    "desc": "恭喜你又获得了一次胜利！为何要继续冒险呢？点击退出按钮，可以马上收获现有的奖金。万一待会游戏失败，可就得不偿失了，你说是吧？",
+    "isSave": 0,
+    "condition": [
+      "checkBattleRoundEnd",
+      "inStage:[\"UIBattleMain\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [
+      0,
+      0
+    ],
+    "maskOffset": [
+      -150,
+      -50
+    ],
+    "maskSize": [
+      100,
+      320
+    ],
+    "param": "UIBattleMain/btnExit"
+  },
+  {
+    "id": 311,
+    "desc": "恭喜你获得羽毛，现在点击退出将它们收入囊中吧！",
+    "isSave": 0,
+    "condition": [
+      "inStage:[\"UIBattleExit\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [
+      0,
+      0
+    ],
+    "maskOffset": [
+      -170,
+      -50
+    ],
+    "maskSize": [
+      100,
+      340
+    ],
+    "param": "UIBattleExit/btnClose"
+  },
+  {
+    "id": 312,
+    "desc": "快点击确认吧",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UIAlert\"]"
+    ],
+    "action": [
+      "showHand:[2]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [
+      0,
+      0
+    ],
+    "maskOffset": [
+      -170,
+      -50
+    ],
+    "maskSize": [
+      100,
+      340
+    ],
+    "param": "UIAlert/btnClose"
+  },
+  {
+    "id": 313,
+    "desc": "在这里，你可以看到你持有的羽毛数！",
+    "isSave": 1,
+    "condition": [
+      "inStage:[\"UIBattleEntry\"]"
+    ],
+    "action": [
+      "showHand:[1]"
+    ],
+    "dialogOffset": [],
+    "fingerOffset": [],
+    "maskOffset": [
+      -100,
+      -70
+    ],
+    "maskSize": [
+      100,
+      200
+    ],
+    "param": "UIBattleEntry/totalGold"
+  }
+]

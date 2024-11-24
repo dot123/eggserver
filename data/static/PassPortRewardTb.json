@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "lv": 1,
+    "exp": 0,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002001,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002005,
+      "num": 3
+    },
+    "issue": 1
+  },
+  {
+    "id": 2,
+    "lv": 2,
+    "exp": 50,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 3,
+    "lv": 3,
+    "exp": 100,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 4,
+    "lv": 4,
+    "exp": 150,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002001,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002001,
+      "num": 12
+    },
+    "issue": 1
+  },
+  {
+    "id": 5,
+    "lv": 5,
+    "exp": 200,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 6,
+    "lv": 6,
+    "exp": 250,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 1
+  },
+  {
+    "id": 7,
+    "lv": 7,
+    "exp": 300,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002002,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002002,
+      "num": 6
+    },
+    "issue": 1
+  },
+  {
+    "id": 8,
+    "lv": 8,
+    "exp": 350,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 9,
+    "lv": 9,
+    "exp": 400,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 10,
+    "lv": 10,
+    "exp": 450,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002002,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002002,
+      "num": 6
+    },
+    "issue": 1
+  },
+  {
+    "id": 11,
+    "lv": 11,
+    "exp": 500,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 12,
+    "lv": 12,
+    "exp": 550,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 1
+  },
+  {
+    "id": 13,
+    "lv": 13,
+    "exp": 600,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002003,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002003,
+      "num": 4
+    },
+    "issue": 1
+  },
+  {
+    "id": 14,
+    "lv": 14,
+    "exp": 650,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 15,
+    "lv": 15,
+    "exp": 700,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 1
+  },
+  {
+    "id": 16,
+    "lv": 16,
+    "exp": 750,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002003,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002003,
+      "num": 4
+    },
+    "issue": 1
+  },
+  {
+    "id": 17,
+    "lv": 17,
+    "exp": 800,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 18,
+    "lv": 18,
+    "exp": 850,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 1
+  },
+  {
+    "id": 19,
+    "lv": 19,
+    "exp": 900,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002004,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002004,
+      "num": 3
+    },
+    "issue": 1
+  },
+  {
+    "id": 20,
+    "lv": 20,
+    "exp": 950,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 21,
+    "lv": 21,
+    "exp": 1000,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 22,
+    "lv": 22,
+    "exp": 1050,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002004,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002004,
+      "num": 3
+    },
+    "issue": 1
+  },
+  {
+    "id": 23,
+    "lv": 23,
+    "exp": 1100,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 24,
+    "lv": 24,
+    "exp": 1150,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 1
+  },
+  {
+    "id": 25,
+    "lv": 25,
+    "exp": 1200,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002005,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002005,
+      "num": 3
+    },
+    "issue": 1
+  },
+  {
+    "id": 26,
+    "lv": 26,
+    "exp": 1250,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 27,
+    "lv": 27,
+    "exp": 1300,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 1
+  },
+  {
+    "id": 28,
+    "lv": 28,
+    "exp": 1350,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 1
+  },
+  {
+    "id": 29,
+    "lv": 29,
+    "exp": 1400,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 1
+  },
+  {
+    "id": 30,
+    "lv": 30,
+    "exp": 1450,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002005,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002005,
+      "num": 3
+    },
+    "issue": 1
+  },
+  {
+    "id": 31,
+    "lv": 1,
+    "exp": 0,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002001,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002005,
+      "num": 3
+    },
+    "issue": 2
+  },
+  {
+    "id": 32,
+    "lv": 2,
+    "exp": 50,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 33,
+    "lv": 3,
+    "exp": 100,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 34,
+    "lv": 4,
+    "exp": 150,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002001,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002001,
+      "num": 12
+    },
+    "issue": 2
+  },
+  {
+    "id": 35,
+    "lv": 5,
+    "exp": 200,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 36,
+    "lv": 6,
+    "exp": 250,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 2
+  },
+  {
+    "id": 37,
+    "lv": 7,
+    "exp": 300,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002002,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002002,
+      "num": 6
+    },
+    "issue": 2
+  },
+  {
+    "id": 38,
+    "lv": 8,
+    "exp": 350,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 39,
+    "lv": 9,
+    "exp": 400,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 40,
+    "lv": 10,
+    "exp": 450,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002002,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002002,
+      "num": 6
+    },
+    "issue": 2
+  },
+  {
+    "id": 41,
+    "lv": 11,
+    "exp": 500,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 42,
+    "lv": 12,
+    "exp": 550,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 2
+  },
+  {
+    "id": 43,
+    "lv": 13,
+    "exp": 600,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002003,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002003,
+      "num": 4
+    },
+    "issue": 2
+  },
+  {
+    "id": 44,
+    "lv": 14,
+    "exp": 650,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 45,
+    "lv": 15,
+    "exp": 700,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 2
+  },
+  {
+    "id": 46,
+    "lv": 16,
+    "exp": 750,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002003,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002003,
+      "num": 4
+    },
+    "issue": 2
+  },
+  {
+    "id": 47,
+    "lv": 17,
+    "exp": 800,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 48,
+    "lv": 18,
+    "exp": 850,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 2
+  },
+  {
+    "id": 49,
+    "lv": 19,
+    "exp": 900,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002004,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002004,
+      "num": 3
+    },
+    "issue": 2
+  },
+  {
+    "id": 50,
+    "lv": 20,
+    "exp": 950,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 51,
+    "lv": 21,
+    "exp": 1000,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 52,
+    "lv": 22,
+    "exp": 1050,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002004,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002004,
+      "num": 3
+    },
+    "issue": 2
+  },
+  {
+    "id": 53,
+    "lv": 23,
+    "exp": 1100,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 54,
+    "lv": 24,
+    "exp": 1150,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 2
+  },
+  {
+    "id": 55,
+    "lv": 25,
+    "exp": 1200,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002005,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002005,
+      "num": 3
+    },
+    "issue": 2
+  },
+  {
+    "id": 56,
+    "lv": 26,
+    "exp": 1250,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 57,
+    "lv": 27,
+    "exp": 1300,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 2
+  },
+  {
+    "id": 58,
+    "lv": 28,
+    "exp": 1350,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "issue": 2
+  },
+  {
+    "id": 59,
+    "lv": 29,
+    "exp": 1400,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2001004,
+      "num": 225
+    },
+    "issue": 2
+  },
+  {
+    "id": 60,
+    "lv": 30,
+    "exp": 1450,
+    "ordinaryReward": {
+      "type": 2,
+      "id": 2002005,
+      "num": 1
+    },
+    "deluxeReward": {
+      "type": 2,
+      "id": 2002005,
+      "num": 3
+    },
+    "issue": 2
+  }
+]

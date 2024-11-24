@@ -1,0 +1,178 @@
+basePath: /api/v1
+definitions:
+  ginx.ResponseData:
+    properties:
+      code:
+        description: 状态码
+        type: integer
+      data:
+        description: 数据内容
+    type: object
+  ginx.ResponseFail:
+    properties:
+      code:
+        description: 状态码
+        type: integer
+      msg:
+        description: 错误信息
+        type: string
+    type: object
+  schema.GMReq:
+    properties:
+      cmd:
+        type: string
+    required:
+    - cmd
+    type: object
+  schema.LoginReq:
+    properties:
+      firstName:
+        type: string
+      languageCode:
+        type: string
+      lastName:
+        type: string
+      os:
+        type: string
+      photoUrl:
+        type: string
+      startParam:
+        type: string
+      userUid:
+        type: string
+      username:
+        type: string
+    required:
+    - userUid
+    type: object
+host: 127.0.0.1:8080
+info:
+  contact:
+    email: conjurer888888@gmail.com
+    name: conjurer
+    url: https:/github.com/dot123
+  description: This is a game management background. you can use the api key `ApiKeyAuth`
+    to test the authorization filters.
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: https://github.com
+  title: gin-gorm-admin API
+  version: "1.0"
+paths:
+  /autoaddvit:
+    post:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 失败结果
+          schema:
+            $ref: '#/definitions/ginx.ResponseFail'
+      security:
+      - ApiKeyAuth: []
+      summary: 自动加体力
+      tags:
+      - 用户模块
+  /daily:
+    post:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 失败结果
+          schema:
+            $ref: '#/definitions/ginx.ResponseFail'
+      security:
+      - ApiKeyAuth: []
+      summary: 每日操作
+      tags:
+      - 用户模块
+  /enter:
+    post:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 失败结果
+          schema:
+            $ref: '#/definitions/ginx.ResponseFail'
+      security:
+      - ApiKeyAuth: []
+      summary: 处理用户进入游戏请求
+      tags:
+      - 用户模块
+  /gm:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: 请求参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/schema.GMReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 失败结果
+          schema:
+            $ref: '#/definitions/ginx.ResponseFail'
+      security:
+      - ApiKeyAuth: []
+      summary: GM
+      tags:
+      - 用户模块
+  /login:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: 请求参数
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/schema.LoginReq'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 失败结果
+          schema:
+            $ref: '#/definitions/ginx.ResponseFail'
+      security:
+      - ApiKeyAuth: []
+      summary: 登录
+      tags:
+      - 用户模块
+  /syncdata:
+    post:
+      consumes:
+      - application/json
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: 失败结果
+          schema:
+            $ref: '#/definitions/ginx.ResponseFail'
+      security:
+      - ApiKeyAuth: []
+      summary: 同步数据
+      tags:
+      - 用户模块
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"

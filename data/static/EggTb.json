@@ -1,0 +1,258 @@
+[
+  {
+    "id": 10001,
+    "partType": 1,
+    "partName": "裸蛋1",
+    "quality": 1,
+    "eggScore": 2,
+    "partIcon": "A01"
+  },
+  {
+    "id": 10002,
+    "partType": 1,
+    "partName": "裸蛋2",
+    "quality": 1,
+    "eggScore": 2,
+    "partIcon": "A02"
+  },
+  {
+    "id": 10003,
+    "partType": 1,
+    "partName": "裸蛋3",
+    "quality": 1,
+    "eggScore": 2,
+    "partIcon": "A03"
+  },
+  {
+    "id": 10004,
+    "partType": 1,
+    "partName": "裸蛋4",
+    "quality": 1,
+    "eggScore": 2,
+    "partIcon": "A04"
+  },
+  {
+    "id": 10005,
+    "partType": 1,
+    "partName": "裸蛋5",
+    "quality": 1,
+    "eggScore": 2,
+    "partIcon": "A05"
+  },
+  {
+    "id": 10006,
+    "partType": 1,
+    "partName": "裸蛋6",
+    "quality": 2,
+    "eggScore": 4,
+    "partIcon": "A06"
+  },
+  {
+    "id": 10007,
+    "partType": 1,
+    "partName": "裸蛋7",
+    "quality": 2,
+    "eggScore": 4,
+    "partIcon": "A07"
+  },
+  {
+    "id": 10008,
+    "partType": 1,
+    "partName": "裸蛋8",
+    "quality": 2,
+    "eggScore": 4,
+    "partIcon": "A08"
+  },
+  {
+    "id": 10009,
+    "partType": 1,
+    "partName": "裸蛋9",
+    "quality": 3,
+    "eggScore": 6,
+    "partIcon": "A09"
+  },
+  {
+    "id": 10010,
+    "partType": 1,
+    "partName": "裸蛋10",
+    "quality": 3,
+    "eggScore": 6,
+    "partIcon": "A10"
+  },
+  {
+    "id": 10011,
+    "partType": 1,
+    "partName": "裸蛋11",
+    "quality": 3,
+    "eggScore": 6,
+    "partIcon": "A11"
+  },
+  {
+    "id": 10012,
+    "partType": 1,
+    "partName": "裸蛋12",
+    "quality": 3,
+    "eggScore": 6,
+    "partIcon": "A12"
+  },
+  {
+    "id": 10013,
+    "partType": 1,
+    "partName": "裸蛋13",
+    "quality": 4,
+    "eggScore": 8,
+    "partIcon": "A13"
+  },
+  {
+    "id": 10014,
+    "partType": 1,
+    "partName": "裸蛋14",
+    "quality": 4,
+    "eggScore": 8,
+    "partIcon": "A14"
+  },
+  {
+    "id": 10015,
+    "partType": 1,
+    "partName": "裸蛋15",
+    "quality": 4,
+    "eggScore": 8,
+    "partIcon": "A15"
+  },
+  {
+    "id": 10016,
+    "partType": 1,
+    "partName": "裸蛋16",
+    "quality": 4,
+    "eggScore": 8,
+    "partIcon": "A16"
+  },
+  {
+    "id": 10017,
+    "partType": 1,
+    "partName": "裸蛋17",
+    "quality": 4,
+    "eggScore": 8,
+    "partIcon": "A17"
+  },
+  {
+    "id": 10018,
+    "partType": 1,
+    "partName": "裸蛋18",
+    "quality": 5,
+    "eggScore": 10,
+    "partIcon": "A18"
+  },
+  {
+    "id": 10019,
+    "partType": 1,
+    "partName": "裸蛋19",
+    "quality": 5,
+    "eggScore": 10,
+    "partIcon": "A19"
+  },
+  {
+    "id": 10020,
+    "partType": 1,
+    "partName": "裸蛋20",
+    "quality": 5,
+    "eggScore": 10,
+    "partIcon": "A20"
+  },
+  {
+    "id": 20001,
+    "partType": 2,
+    "partName": "挂件0",
+    "quality": 0,
+    "eggScore": 0,
+    "partIcon": ""
+  },
+  {
+    "id": 20002,
+    "partType": 2,
+    "partName": "挂件1",
+    "quality": 1,
+    "eggScore": 2,
+    "partIcon": "C01"
+  },
+  {
+    "id": 20003,
+    "partType": 2,
+    "partName": "挂件2",
+    "quality": 1,
+    "eggScore": 2,
+    "partIcon": "C02"
+  },
+  {
+    "id": 20004,
+    "partType": 2,
+    "partName": "挂件3",
+    "quality": 2,
+    "eggScore": 4,
+    "partIcon": "C03"
+  },
+  {
+    "id": 20005,
+    "partType": 2,
+    "partName": "挂件4",
+    "quality": 2,
+    "eggScore": 4,
+    "partIcon": "C04"
+  },
+  {
+    "id": 20006,
+    "partType": 2,
+    "partName": "挂件5",
+    "quality": 3,
+    "eggScore": 6,
+    "partIcon": "C05"
+  },
+  {
+    "id": 20007,
+    "partType": 2,
+    "partName": "挂件6",
+    "quality": 4,
+    "eggScore": 8,
+    "partIcon": "C06"
+  },
+  {
+    "id": 20008,
+    "partType": 2,
+    "partName": "挂件7",
+    "quality": 5,
+    "eggScore": 10,
+    "partIcon": "C07"
+  },
+  {
+    "id": 20009,
+    "partType": 2,
+    "partName": "挂件8",
+    "quality": 5,
+    "eggScore": 10,
+    "partIcon": "C08"
+  },
+  {
+    "id": 30001,
+    "partType": 3,
+    "partName": "背光",
+    "quality": 0,
+    "eggScore": 0,
+    "partIcon": ""
+  },
+  {
+    "id": 30002,
+    "partType": 3,
+    "partName": "背光",
+    "quality": 4,
+    "eggScore": 8,
+    "partIcon": "D01"
+  },
+  {
+    "id": 30003,
+    "partType": 3,
+    "partName": "背光",
+    "quality": 5,
+    "eggScore": 10,
+    "partIcon": "D02"
+  }
+]

@@ -1,0 +1,105 @@
+# gin运行模式(debug:调试,release:正式,test:测试)
+RunMode = "debug"
+# 启动时是否打印配置参数
+PrintConfig = true
+# 是否启用swagger
+Swagger = true
+# 是否启用GM
+GM = true
+# 数据按位进行异或运算
+DataKey = 123
+# 钱包地址 UQBWTutjXuqjlVzGXRuoJWS7p8Y73xVqWnQ6-esdJ4HsdmDQ
+WalletAddress = "0:564eeb635eeaa3955cc65d1ba82564bba7c63bdf156a5a743af9eb1d2781ec76"
+
+[JWTAuth]
+# 签名key
+Key = "sS@31y2&"
+# 过期时间（单位:时）
+Expired = 24
+# 是否使用Session
+UseSession = true
+
+# 请求频率限制
+[RateLimiter]
+# 是否启用
+Enable = true
+# 每分钟每个用户允许的最大请求数量
+Count = 120
+
+[CORS]
+# 是否启用
+Enable = true
+# 允许跨域请求的域名列表(*表示全部允许)
+AllowOrigins = ["*"]
+# 允许跨域请求的请求方式列表
+AllowMethods = ["GET", "POST", "PUT", "DELETE", "PATCH"]
+# 允许客户端与跨域请求一起使用的非简单标头的列表
+AllowHeaders = ["Content-Type", "Content-Length", "Accept-Encoding", "X-CSRF-Token", "Authorization", "accept", "origin", "Cache-Control", "X-Requested-With"]
+# 请求是否可以包含cookie，HTTP身份验证或客户端SSL证书等用户凭据
+AllowCredentials = true
+# 可以缓存预检请求结果的时间（以秒为单位）
+MaxAge = 7200
+
+[Gorm]
+# 是否开启调试模式
+Debug = true
+# 数据库连接的最大生命周期（秒）
+ConnMaxLifetime = 1800
+# 连接在池中保持空闲的最大时间（秒）
+ConnMaxIdleTime = 600
+# 数据库连接池的最大打开连接数
+MaxOpenConns = 2000
+# 数据库连接池的最大空闲连接数
+MaxIdleConns = 500
+# 表名前缀
+TablePrefix = "g_"
+
+[MySQL]
+# 连接地址
+Host = "localhost"
+# 连接端口
+Port = 3306
+# 用户名
+User = "root"
+# 密码
+Password = "pwd123456"
+# 数据库
+DBName = "egg_debug"
+# 连接参数
+Parameters = "charset=utf8mb4&parseTime=True&loc=Local&allowNativePasswords=true"
+
+[RedisBackend]
+# 地址
+Addrs = ["localhost:6379"]
+DB = 0
+MaxRetries = 3
+Username = ""
+Password = ""
+# 连接池大小
+PoolSize = 2000
+# 最小空闲连接数
+MinIdleConns = 500
+# 连接最大生命周期（秒）
+ConnMaxLifetime = 1800
+# 连接在池中保持空闲的最大时间（秒）
+ConnMaxIdleTime = 600
+# 连接超时时间 5 秒
+DialTimeout = 5
+# 读取超时时间 3 秒
+ReadTimeout = 3
+# 写入超时时间 3 秒
+WriteTimeout = 3
+
+[Log]
+# 日志级别(1:fatal 2:error,3:warn,4:info,5:debug,6:trace)
+Level = 5
+# 日志格式（支持输出格式：text/json）
+Format = "json"
+# 日志输出(支持：stdout/stderr/file)
+Output = "stdout"
+# 指定日志输出的文件路径
+OutputFile = "log/eggserver"
+# 日志轮询数量
+RotationCount = 48
+# 日志轮询时间周期
+RotationTime = 1800

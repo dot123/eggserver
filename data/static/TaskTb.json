@@ -1,0 +1,210 @@
+[
+  {
+    "taskId": 1,
+    "taskSubId": 3,
+    "taskName": "收集指定数量的蛋",
+    "desc": "收集{a=5}个蛋({b=1}/{c=5})",
+    "taskType": 1,
+    "need": 50,
+    "maxTimes": 10000,
+    "reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "iconAvatar": "icon_Collect--eggs",
+    "display": 1
+  },
+  {
+    "taskId": 2,
+    "taskSubId": 4,
+    "taskName": "收集指定数量的宠物",
+    "desc": "收集{a=5}个宠物({b=1}/{c=5})",
+    "taskType": 1,
+    "need": 50,
+    "maxTimes": 10000,
+    "reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "iconAvatar": "icon_Collect--minions",
+    "display": 1
+  },
+  {
+    "taskId": 3,
+    "taskSubId": 2,
+    "taskName": "邀请指定数量的好友",
+    "desc": "邀请{a=1}个好友（{b=1}/{c=1}）",
+    "taskType": 1,
+    "need": 2,
+    "maxTimes": 10000,
+    "reward": {
+      "type": 2,
+      "id": 2001002,
+      "num": 125
+    },
+    "iconAvatar": "icon_Invite-friends",
+    "display": 1
+  },
+  {
+    "taskId": 4,
+    "taskSubId": 1,
+    "taskName": "关注指定账号tg",
+    "desc": "关注EggRoyale的TG账号",
+    "taskType": 1,
+    "need": 1,
+    "maxTimes": 1,
+    "reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "iconAvatar": "icon_Join-EggRoyale's-Telegram-channel",
+    "display": 1
+  },
+  {
+    "taskId": 5,
+    "taskSubId": 5,
+    "taskName": "关注指定账号x",
+    "desc": "关注EggRoyale的X账号",
+    "taskType": 1,
+    "need": 1,
+    "maxTimes": 1,
+    "reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 1000
+    },
+    "iconAvatar": "icon_Follow-SND's-X",
+    "display": 1
+  },
+  {
+    "taskId": 6,
+    "taskSubId": 6,
+    "taskName": "前往官网",
+    "desc": "前往SND官网",
+    "taskType": 1,
+    "need": 1,
+    "maxTimes": 1,
+    "reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 800
+    },
+    "iconAvatar": "icon_EggRoyale",
+    "display": 1
+  },
+  {
+    "taskId": 7,
+    "taskSubId": 7,
+    "taskName": "前往DC官网",
+    "desc": "前往DC官网",
+    "taskType": 1,
+    "need": 1,
+    "maxTimes": 1,
+    "reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 800
+    },
+    "iconAvatar": "icon_Follow-SND's-X",
+    "display": 0
+  },
+  {
+    "taskId": 8,
+    "taskSubId": 8,
+    "taskName": "分享指定数量的好友",
+    "desc": "分享指定数量的好友",
+    "taskType": 1,
+    "need": 1,
+    "maxTimes": 9999,
+    "reward": {
+      "type": 2,
+      "id": 2001002,
+      "num": 25
+    },
+    "iconAvatar": "icon_Share-with-friends",
+    "display": 1
+  },
+  {
+    "taskId": 9,
+    "taskSubId": 3,
+    "taskName": "收集指定数量的蛋",
+    "desc": "收集{a=5}个蛋({b=1}/{c=5})",
+    "taskType": 2,
+    "need": 40,
+    "maxTimes": 1,
+    "reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "iconAvatar": "icon_Collect--eggs",
+    "display": 1
+  },
+  {
+    "taskId": 10,
+    "taskSubId": 2,
+    "taskName": "邀请指定数量的好友",
+    "desc": "邀请{a=1}个好友（{b=1}/{c=1}）",
+    "taskType": 2,
+    "need": 2,
+    "maxTimes": 1,
+    "reward": {
+      "type": 2,
+      "id": 2001002,
+      "num": 125
+    },
+    "iconAvatar": "icon_Share-with-friends",
+    "display": 1
+  },
+  {
+    "taskId": 11,
+    "taskSubId": 4,
+    "taskName": "收集指定数量的宠物",
+    "desc": "收集{a=5}个宠物({b=1}/{c=5})",
+    "taskType": 2,
+    "need": 30,
+    "maxTimes": 1,
+    "reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "iconAvatar": "icon_Collect--minions",
+    "display": 1
+  },
+  {
+    "taskId": 12,
+    "taskSubId": 8,
+    "taskName": "分享指定数量的好友",
+    "desc": "分享指定数量的好友",
+    "taskType": 2,
+    "need": 3,
+    "maxTimes": 1,
+    "reward": {
+      "type": 2,
+      "id": 2001002,
+      "num": 75
+    },
+    "iconAvatar": "icon_Share-with-friends",
+    "display": 1
+  },
+  {
+    "taskId": 13,
+    "taskSubId": 9,
+    "taskName": "前往绑定钱包",
+    "desc": "前往绑定钱包",
+    "taskType": 1,
+    "need": 1,
+    "maxTimes": 1,
+    "reward": {
+      "type": 2,
+      "id": 2001001,
+      "num": 2000
+    },
+    "iconAvatar": "icon_Connect-Wallet",
+    "display": 1
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "quality": 0,
+    "weight": 100
+  },
+  {
+    "id": 2,
+    "quality": 1,
+    "weight": 0
+  },
+  {
+    "id": 3,
+    "quality": 2,
+    "weight": 0
+  },
+  {
+    "id": 4,
+    "quality": 3,
+    "weight": 0
+  },
+  {
+    "id": 5,
+    "quality": 4,
+    "weight": 100
+  },
+  {
+    "id": 6,
+    "quality": 5,
+    "weight": 100
+  }
+]

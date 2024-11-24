@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1610001,
+    "desc": "体力*200",
+    "name": "体力",
+    "groupId": 1,
+    "weight": 50,
+    "item": {
+      "type": 2,
+      "id": 2001001,
+      "num": 100
+    },
+    "price": {
+      "type": 0,
+      "id": 0,
+      "num": 0
+    },
+    "discount": [
+      100,
+      100
+    ],
+    "buyLimit": 1,
+    "share": 1,
+    "bg": "bg3",
+    "icon": "t1"
+  },
+  {
+    "id": 1610002,
+    "desc": "体力*400",
+    "name": "体力",
+    "groupId": 1,
+    "weight": 30,
+    "item": {
+      "type": 2,
+      "id": 2001001,
+      "num": 200
+    },
+    "price": {
+      "type": 0,
+      "id": 0,
+      "num": 0
+    },
+    "discount": [
+      100,
+      100
+    ],
+    "buyLimit": 1,
+    "share": 1,
+    "bg": "bg3",
+    "icon": "t1"
+  },
+  {
+    "id": 1610003,
+    "desc": "体力*800",
+    "name": "体力",
+    "groupId": 1,
+    "weight": 10,
+    "item": {
+      "type": 2,
+      "id": 2001001,
+      "num": 300
+    },
+    "price": {
+      "type": 0,
+      "id": 0,
+      "num": 0
+    },
+    "discount": [
+      100,
+      100
+    ],
+    "buyLimit": 1,
+    "share": 1,
+    "bg": "bg3",
+    "icon": "t2"
+  },
+  {
+    "id": 1610004,
+    "desc": "体力*1000",
+    "name": "体力",
+    "groupId": 1,
+    "weight": 5,
+    "item": {
+      "type": 2,
+      "id": 2001001,
+      "num": 500
+    },
+    "price": {
+      "type": 0,
+      "id": 0,
+      "num": 0
+    },
+    "discount": [
+      100,
+      100
+    ],
+    "buyLimit": 1,
+    "share": 1,
+    "bg": "bg3",
+    "icon": "t3"
+  },
+  {
+    "id": 1610005,
+    "desc": "挽回卡*10",
+    "name": "挽回卡",
+    "groupId": 2,
+    "weight": 10,
+    "item": {
+      "type": 2,
+      "id": 2001003,
+      "num": 10
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "wanhuika"
+  },
+  {
+    "id": 1610006,
+    "desc": "高级宝箱*10",
+    "name": "高级宝箱",
+    "groupId": 2,
+    "weight": 120,
+    "item": {
+      "type": 2,
+      "id": 2002001,
+      "num": 5
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 100
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box1"
+  },
+  {
+    "id": 1610007,
+    "desc": "高级宝箱*20",
+    "name": "高级宝箱",
+    "groupId": 2,
+    "weight": 120,
+    "item": {
+      "type": 2,
+      "id": 2002001,
+      "num": 10
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 200
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box1"
+  },
+  {
+    "id": 1610008,
+    "desc": "稀有宝箱*10",
+    "name": "稀有宝箱",
+    "groupId": 3,
+    "weight": 60,
+    "item": {
+      "type": 2,
+      "id": 2002002,
+      "num": 5
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 200
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box2"
+  },
+  {
+    "id": 1610009,
+    "desc": "稀有宝箱*20",
+    "name": "稀有宝箱",
+    "groupId": 3,
+    "weight": 60,
+    "item": {
+      "type": 2,
+      "id": 2002002,
+      "num": 10
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 400
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box2"
+  },
+  {
+    "id": 1610010,
+    "desc": "高级宝箱*10",
+    "name": "高级宝箱",
+    "groupId": 3,
+    "weight": 120,
+    "item": {
+      "type": 2,
+      "id": 2002001,
+      "num": 5
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 100
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box1"
+  },
+  {
+    "id": 1610011,
+    "desc": "史诗宝箱*10",
+    "name": "史诗宝箱",
+    "groupId": 4,
+    "weight": 40,
+    "item": {
+      "type": 2,
+      "id": 2002003,
+      "num": 5
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 300
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box3"
+  },
+  {
+    "id": 1610012,
+    "desc": "史诗宝箱*20",
+    "name": "史诗宝箱",
+    "groupId": 4,
+    "weight": 40,
+    "item": {
+      "type": 2,
+      "id": 2002003,
+      "num": 10
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 600
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box3"
+  },
+  {
+    "id": 1610013,
+    "desc": "稀有宝箱*10",
+    "name": "稀有宝箱",
+    "groupId": 4,
+    "weight": 60,
+    "item": {
+      "type": 2,
+      "id": 2002002,
+      "num": 5
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 200
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box2"
+  },
+  {
+    "id": 1610014,
+    "desc": "传说宝箱*10",
+    "name": "传说宝箱",
+    "groupId": 5,
+    "weight": 30,
+    "item": {
+      "type": 2,
+      "id": 2002004,
+      "num": 5
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 400
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box4"
+  },
+  {
+    "id": 1610015,
+    "desc": "传说宝箱*20",
+    "name": "传说宝箱",
+    "groupId": 5,
+    "weight": 30,
+    "item": {
+      "type": 2,
+      "id": 2002004,
+      "num": 10
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 800
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box4"
+  },
+  {
+    "id": 1610016,
+    "desc": "史诗宝箱*10",
+    "name": "史诗宝箱",
+    "groupId": 5,
+    "weight": 40,
+    "item": {
+      "type": 2,
+      "id": 2002003,
+      "num": 5
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 300
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box3"
+  },
+  {
+    "id": 1610017,
+    "desc": "神话宝箱*10",
+    "name": "神话宝箱",
+    "groupId": 6,
+    "weight": 24,
+    "item": {
+      "type": 2,
+      "id": 2002005,
+      "num": 5
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 500
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box5"
+  },
+  {
+    "id": 1610018,
+    "desc": "神话宝箱*20",
+    "name": "神话宝箱",
+    "groupId": 6,
+    "weight": 24,
+    "item": {
+      "type": 2,
+      "id": 2002005,
+      "num": 10
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 1000
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box5"
+  },
+  {
+    "id": 1610019,
+    "desc": "传说宝箱*10",
+    "name": "传说宝箱",
+    "groupId": 6,
+    "weight": 30,
+    "item": {
+      "type": 2,
+      "id": 2002004,
+      "num": 5
+    },
+    "price": {
+      "type": 2,
+      "id": 2001004,
+      "num": 400
+    },
+    "discount": [
+      50,
+      90
+    ],
+    "buyLimit": 1,
+    "share": 0,
+    "bg": "bg3",
+    "icon": "box4"
+  },
+  {
+    "id": 1610020,
+    "desc": "钻石*1",
+    "name": "钻石",
+    "groupId": 1,
+    "weight": 10,
+    "item": {
+      "type": 2,
+      "id": 2001004,
+      "num": 20
+    },
+    "price": {
+      "type": 0,
+      "id": 0,
+      "num": 0
+    },
+    "discount": [
+      100,
+      100
+    ],
+    "buyLimit": 1,
+    "share": 1,
+    "bg": "bg3",
+    "icon": "zs"
+  }
+]
